@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Mark down previewer</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body id="SiteBody">
+
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+  <script type="text/javascript" src="secondJsBasedOnVid.js" defer></script>
+
+<div id='main' > 
+
+  <h1 >25 + 5 Clock</h1> 
+
+  <div id="break">
+
+    <h3 id="break-label">Break Length</h3>
+
+ 
+    <!-- <input type="button" name="" id="break-decrement" value="!" onclick="upDate('decre')"> -->
+    <button id="break-decrement" onclick="upDate('decre')">b-</button>
+
+     <span id="break-length" >  </span>
+     <!-- <div id="break-length" > 5 </div> -->
+
+      
+    <button id="break-increment" onclick="upDate('incre')">b+</button>
+
+   <!--  <input type="button" name="" id="break-increment" value="^" onclick="upDate('incre')"> -->
+
+  </div><br>
+
+
+  
+    <div id="session">
+
+  <h3 id="session-label">Session Length</h3>
+
+    <button id="session-decrement" onclick="upDate('seDecre')">s-</button>
+
+    <!-- <input type="button" name="" id="session-decrement" value="!" onclick="upDate('seDecre')">  -->
+
+    <span id="session-length" >  </span>
+     <!-- <input type="text"  id="session-length" value="25" > -->
+
+
+    <button id="session-increment" onclick="upDate('seIncre')">s+</button>
+
+    <!-- <input type="button" name="" id="session-increment" value="^" onclick="upDate('seIncre')"> -->
+
+  </div>  <br>
+
+
+
+
+
+
+<h2 id="timer-label">Session</h2>
+
+<div id="time-left" onload="updateTime()">  </div><br>
+
+<button id="start_stop" onclick="startStop()"> Start/Stop</button>
+
+<!-- <button id="start_stop" onclick="setInterval(updateTime, 1000) ; startStop()"> Start/Stop</button> -->
+
+<button id="reset" onclick="reset()"> Reset</button>
+
+
+</div>
+
+
+<!-- <p id="datebtn">time is =</p>
+
+<button type="button" onclick="setInterval(updateTime, 1000)">click to show the time</button> -->
+
+
+
+</body>
+</html>
+
+
+<!-- Resources: https://contactmentor.com/js-increment-counter-button-click/ -->

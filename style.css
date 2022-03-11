@@ -1,0 +1,51 @@
+
+
+body {
+	background: #166872;
+  font-family: arial;
+}
+
+  /*#display {
+
+        margin: auto;
+    width: 50%;*/
+  /*margin-top: 20%;*/
+/*  border: 3px solid green;
+      height: 500px;
+      width: 500px;
+      background: red;
+      color: #fff;
+}*/
+
+
+#main {
+  margin: auto;
+  width: 400px;
+  height: 460px;
+  margin-top: 3%;
+  border: 3px solid #0cb1c5;
+  padding: 10px;
+
+  /*max-width: 160px;*/
+   /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr;*/
+  background-color: #0b2e33;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+
+}
+
+
+  /*
+  .drum-pad{
+  	 
+  	background: white;
+  	height: 50px;
+  	width: 50px;
+  	border-radius: 2px;
+  	color: black;
+  	border: 1px solid black;
+
+  }*/
+
